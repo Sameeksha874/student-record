@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>student records managment</title>
+    <title>Student Record Management</title>
     <style>
         body{
-
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: Arial,sans-serif;
             margin: 20px;
         }
         .error{
@@ -16,26 +15,22 @@
     </style>
 </head>
 <body>
-    <h1>Student Records managment </h1>
-    <form id="student form">
-    <label for="studentId">student ID</label>
-    <input type="text" id="studentId" name="studentId" required>
+    <h1>STUDENT RECORD MANAGEMENT</h1>
+<form id="studentform">
+    <label for="studentId"> Student Id :</label>
+    <input type="text" id="studentId" required>
     <br>
-    <label for="studentName">student Name:</label>
-    <input type="text" id="studentName" name="studentName" required>
+    <label for="studentName"> Student Name :</label>
+    <input type="text" id="studentName" >
     <br>
-    <label for="studentAge">student Age:</label>
-    <input type="number" id="studentAge" name="studentAge" required>
+    <label for="studentAge"> Student Age :</label>
+    <input type="number" id="studentAge" >
     <br>
-    
-<button type ="submit">add student</button>
+    <button type="submit">Add Student</button>
 </form>
-<h2>Student Records</h2>
+<h2>Student records</h2>
 <div id="error" class="error"></div>
-<ul id="studentList"></ul>
-<script src="script.js"></script>  
- 
-
-    
+<ul id="studentlist"></ul>
+<script src ="script.js"></script>
 </body>
 </html>
